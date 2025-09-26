@@ -37,7 +37,7 @@
 
         <article class="bg-white rounded-3xl p-8 mb-10 shadow-2xl hover:shadow-3xl transition-shadow duration-500">
             {% if i.img %}
-            <img src="{{ i.img.url }}" alt="" class="w-full h-72 object-cover rounded-xl mb-6 transform hover:scale-105 transition-transform duration-500">
+                <img src="{{ i.img.url }}" alt="" class="w-full h-72 object-cover rounded-xl mb-6 transform hover:scale-105 transition-transform duration-500">
             {% endif %}
             <h2 class="text-3xl font-bold text-gray-800 mb-3">{{ i.title }}</h2>
             <div class="text-sm text-gray-500 mb-4">{{ i.date|date:'d-M, Y h:i A'}} | <b>{{ i.author }}</b></div>
